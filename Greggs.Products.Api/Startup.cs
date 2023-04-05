@@ -12,6 +12,7 @@ public class Startup
         services.AddControllers();
 
         services.AddSwaggerGen();
+
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
