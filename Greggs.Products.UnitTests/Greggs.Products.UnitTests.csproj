@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Greggs.DataAccessLayer\Greggs.DataAccess.csproj" />
+    <ProjectReference Include="..\Greggs.DataAccess\Greggs.DataAccess.csproj" />
     <ProjectReference Include="..\Greggs.Products.Api\Greggs.Products.Api.csproj" />
   </ItemGroup>
 

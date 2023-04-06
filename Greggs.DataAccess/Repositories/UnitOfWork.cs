@@ -1,4 +1,4 @@
-﻿namespace Greggs.DataAccessLayer.Repositories;
+﻿namespace Greggs.DataAccess.Repositories;
 
 public class UnitOfWork<TEntity> : IUnitOfWork<TEntity> where TEntity : class
 {

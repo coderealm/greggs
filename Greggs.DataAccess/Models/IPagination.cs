@@ -1,4 +1,4 @@
-﻿namespace Greggs.DataAccessLayer.Models;
+﻿namespace Greggs.DataAccess.Models;
 
 public class Pagination : IPagination
 {

@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Greggs.DataAccessLayer.Repositories;
+namespace Greggs.DataAccess.Repositories;
 
 public interface IRepository<TEntity> where TEntity : class
 {

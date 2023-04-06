@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Greggs.DataAccessLayer.DbContexts;
-using Greggs.DataAccessLayer.Repositories;
+using Greggs.DataAccess.DbContexts;
+using Greggs.DataAccess.Models;
+using Greggs.DataAccess.Repositories;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Greggs.Models;
-using Greggs.DataAccessLayer.Models;
 using MediatR;
 
 namespace Greggs.Products.Api;

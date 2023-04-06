@@ -1,8 +1,8 @@
-﻿using Greggs.DataAccessLayer.DbContexts;
+﻿using System.Linq.Expressions;
+using Greggs.DataAccess.DbContexts;
 using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
 
-namespace Greggs.DataAccessLayer.Repositories;
+namespace Greggs.DataAccess.Repositories;
 
 public class StoreRepository<TEntity> : IRepository<TEntity> where TEntity : class
 {

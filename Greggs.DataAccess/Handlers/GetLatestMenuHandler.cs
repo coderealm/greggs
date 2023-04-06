@@ -1,10 +1,10 @@
-﻿using Greggs.DataAccessLayer.Models;
-using Greggs.DataAccessLayer.Queries;
-using Greggs.DataAccessLayer.Repositories;
+﻿using Greggs.DataAccess.Models;
+using Greggs.DataAccess.Queries;
+using Greggs.DataAccess.Repositories;
 using Greggs.Models;
 using MediatR;
 
-namespace Greggs.DataAccessLayer.Handlers
+namespace Greggs.DataAccess.Handlers
 {
     public class GetLatestMenuHandler : IRequestHandler<GetLatestMenuQuery, IEnumerable<Product>>
     {

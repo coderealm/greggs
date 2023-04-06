@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Greggs.DataAccessLayer.Queries;
+using Greggs.DataAccess.Queries;
 using Greggs.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

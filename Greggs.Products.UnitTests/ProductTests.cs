@@ -1,13 +1,7 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Castle.Core.Logging;
-using Greggs.DataAccessLayer.Handlers;
-using Greggs.DataAccessLayer.Models;
-using Greggs.DataAccessLayer.Queries;
-using Greggs.DataAccessLayer.Repositories;
+using Greggs.DataAccess.Queries;
 using Greggs.Models;
 using Greggs.Products.Api.Controllers;
 using MediatR;

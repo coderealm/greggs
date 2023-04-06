@@ -1,7 +1,7 @@
 ﻿using Greggs.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Greggs.DataAccessLayer.DbContexts;
+namespace Greggs.DataAccess.DbContexts;
 
 public class StoreContext : DbContext
 {
